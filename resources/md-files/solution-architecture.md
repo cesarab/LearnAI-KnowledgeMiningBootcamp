@@ -8,11 +8,11 @@ The labs have a progressive level of complexity and they will help you to unders
 
 ## Use Case
 
-Every company has business documents: contracts, memos, presentations, images, spreadsheets, business plans and so on. Usually these documents doesn't have the metadata necessary to be searchable, **as you can see in the image below**. Since documents don't have tags, cetegories and comments, they only can be found by name. This creates a poor search experiece, slowing down busiess process and reducing productivity.
+Every company has business documents: contracts, memos, presentations, images, spreadsheets, business plans and so on. Usually these documents doesn't have the metadata necessary to be searchable, **as you can see in the image below**. Since documents don't have tags, categories and comments, they only can be found by name. This creates a poor search experience, slowing down business process and reducing productivity.
 
 ![Lack of Metadata](../../resources/images/sol-arch/no-meta.png)
 
-Azure Cognitive Search, the Microsoft product for Knowledge Mining, uses the most advanced cognitive capabilities, based on Microsoft's Azure AI Platform, to extract and create enriched metadata about your documents, vastly improving the overall search experience. This process also allow companies to enforce complaince, detect risks and detect policies violations.
+Azure Cognitive Search, the Microsoft product for Knowledge Mining, uses the most advanced cognitive capabilities, based on Microsoft's Azure AI Platform, to extract and create enriched metadata about your documents, vastly improving the overall search experience. This process also allow companies to enforce compliance, detect risks and detect policies violations.
 
 Enterprises may need to search for:
 
@@ -79,15 +79,15 @@ Prices are estimates and are not intended as actual price quotes. Actual prices 
 
 Microsoft Azure Search provides an API for web or mobile applications, creating great search experieces for users. Another type of application that can benefit from Azure Search is a Bot, a trending technology from Microsoft.
 
-Although this is not a training on bots, you will learn how to integrate one with the  [Azure Search Rest API](https://docs.microsoft.com/en-us/azure/search/search-query-rest-api). This Bot will be as simple as possible, runninng locally with the [Bot Emulator](https://github.com/Microsoft/BotFramework-Emulator).
+Although this is not a training on bots, you will learn how to integrate one with the  [Azure Search Rest API](https://docs.microsoft.com/en-us/azure/search/search-query-rest-api). This Bot will be as simple as possible, running locally with the [Bot Emulator](https://github.com/Microsoft/BotFramework-Emulator).
 
-This [gif](../../resources/images/lab-bot/retrieving-cognitive-attrributes.gif) has the expected finished solution, but with a different dataset. Now you have idea of what we will be created by the end of the training.
+This [gif](../../resources/images/lab-bot/retrieving-cognitive-attrributes.gif) has the expected finished solution, but with a different dataset. Now you have an idea of what we will be created by the end of the training.
 
 The Microsoft Learn AI Team has a 2 day [Computer Vision Bot Bootcamp](https://azure.github.io/LearnAI-Bootcamp/emergingaidev_bootcamp) that shows you how to create an intelligent bot using Azure Search, CosmosDB and Cognitive Services.
 
 ## Lab Tools for APIs
 
-Labs 3, 4, and 5 will use Postman for [REST API calls](https://docs.microsoft.com/en-us/azure/search/search-fiddler). You can use any other REST API tool that can formulate and send HTTP requests, but we suggest you to use Postman since the training was created with/for it. The image below shows a visual example of Postman being used for Cognitive Search. Please check the suggested Postman tutoral on [Pre-Reqs section of the initial page](./readme.md).
+Labs 3, 4, and 5 will use Postman for [REST API calls](https://docs.microsoft.com/en-us/azure/search/search-fiddler). You can use any other REST API tool that can formulate and send HTTP requests, but we suggest you to use Postman since the training was created with/for it. The image below shows a visual example of Postman being used for Cognitive Search. Please check the suggested Postman tutorial on [Pre-Reqs section of the initial page](./readme.md).
 
 ![Postman Example](../../resources/images/sol-arch/postman.png)
 
